@@ -119,12 +119,13 @@
   </resheader>
   <data name="label3.Text" xml:space="preserve">
     <value>Instructions:
-Step 1: Give that Curse button a click! this works
-as your start button, once clicked the game will begin
+Step 1: Give that Curse button a click! This works
+as your start button, once clicked the game will begin.
 
-Step 2: you may choose between "Opening" or 
+Step 2: You may choose between "Opening" or 
 "Burning" the book, you get to burn upto 2 books and if you open the
-cursed book you lose! if you burn the cursed book you will win,
-so maybe try to work out the safe books n use your burns carefully.</value>
+cursed book you lose! If you burn the cursed book you win.
+
+Maybe try to work out the safe books and use your burns carefully.</value>
   </data>
 </root>

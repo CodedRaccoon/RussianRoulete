@@ -69,7 +69,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(560, 586);
             this.panel1.TabIndex = 0;
-//            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // lblCounter
             // 
@@ -104,7 +103,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(3, 230);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(211, 242);
+            this.label3.Size = new System.Drawing.Size(189, 264);
             this.label3.TabIndex = 12;
             this.label3.Text = resources.GetString("label3.Text");
             // 

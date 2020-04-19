@@ -112,11 +112,11 @@ namespace RussianRoulete.Properties {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        internal static string Resources {
-            get {
-                return ResourceManager.GetString("Resources", resourceCulture);
-            }
-        }
+        // internal static string Resources {
+        //    get {
+        //        return ResourceManager.GetString("Resources", resourceCulture);
+         //   }
+        //} 
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.

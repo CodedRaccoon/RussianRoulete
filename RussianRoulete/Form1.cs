@@ -61,7 +61,7 @@ namespace RussianRoulete
                 {
 
                     MessageBox.Show("You're Safe... For now...");
-
+                    FakeButton.Enabled = false;
                 }
             }
             else if(Burning == true)
@@ -110,6 +110,8 @@ namespace RussianRoulete
             //
             CursedBookNum = rand.Next(1, 6);
             
+           
+
             // to test random generator delete comment below.
             //MessageBox.Show(Convert.ToString(CursedBookNum)); 
         }
