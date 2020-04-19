@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblCounter = new System.Windows.Forms.Label();
             this.btnRestart = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -51,7 +50,6 @@
             // 
             this.panel1.BackgroundImage = global::RussianRoulete.Properties.Resources.CursedBook;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel1.Controls.Add(this.lblCounter);
             this.panel1.Controls.Add(this.btnRestart);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
@@ -69,19 +67,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(560, 586);
             this.panel1.TabIndex = 0;
-            // 
-            // lblCounter
-            // 
-            this.lblCounter.AutoSize = true;
-            this.lblCounter.BackColor = System.Drawing.Color.Black;
-            this.lblCounter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblCounter.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCounter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblCounter.Location = new System.Drawing.Point(483, 518);
-            this.lblCounter.Name = "lblCounter";
-            this.lblCounter.Size = new System.Drawing.Size(32, 37);
-            this.lblCounter.TabIndex = 15;
-            this.lblCounter.Text = "2";
             // 
             // btnRestart
             // 
@@ -271,19 +256,18 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnBook1;
-        private System.Windows.Forms.Button btnBurn;
-        private System.Windows.Forms.Button btnGo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnBook6;
         private System.Windows.Forms.Button btnBook5;
         private System.Windows.Forms.Button btnBook4;
         private System.Windows.Forms.Button btnBook3;
         private System.Windows.Forms.Button btnBook2;
-        private System.Windows.Forms.Button btnOpen;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnRestart;
-        private System.Windows.Forms.Label lblCounter;
+        protected internal System.Windows.Forms.Button btnOpen;
+        public System.Windows.Forms.Button btnGo;
+        public System.Windows.Forms.Button btnRestart;
+        public System.Windows.Forms.Button btnBurn;
     }
 }
 
